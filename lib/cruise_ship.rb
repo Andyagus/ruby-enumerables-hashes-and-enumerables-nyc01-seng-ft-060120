@@ -7,12 +7,10 @@ passengers = {
 }
 
 def select_winner(passengers)
-  passenger.each do |suite,name| do
-    if suite == "suite_a" && name.start_with?("A")
-      winner = name
-    end  
-  end
-  winner
+  winner = ""
+  passengers.each do |name, suite|
+    if passengers
+  end 
 end
 
 
@@ -38,7 +36,14 @@ end
 
 
 
-
+def select_winner(passengers)
+  passenger.each do|suite,name| do
+    if suite == "suite_a" && name.start_with?("A")
+      winner = name
+    end  
+  end
+  winner
+end
 
 
 
