@@ -16,3 +16,30 @@ def happy_birthday(birthday_kids)
     puts "Happy Birthday #{name}! You are now #{age} years old!"
   end
 end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+def happy_birthday(birthday_kids)
+  birthday_kids.each do |name, age|
+    "happy birthday #{name} you are #{11}"
+  end
+end  
+  
+  
+  
+  
