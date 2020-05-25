@@ -36,7 +36,7 @@ end
 
 def happy_birthday(birthday_kids)
   birthday_kids.each do |name, age|
-    "happy birthday #{name} you are #{11}"
+    "happy birthday #{name} you are #{age}"
   end
 end  
   
